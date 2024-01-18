@@ -1,4 +1,3 @@
-package timecalculator;
 
 import java.util.Scanner;
 
