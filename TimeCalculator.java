@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class TimeCalculator {
 
     public static void main(String[] args) {
-
+        //Programa que calcula la cantidad de minutos que exiten en una cantidad de horas ingresada.
         int hora, minuto;
         String salir = "n";
         Scanner sc = new Scanner(System.in);
@@ -17,8 +17,7 @@ public class TimeCalculator {
             System.out.print("Ingrese sus horas: ");
             hora = sc.nextInt();
             minuto = hora * 60;
-            System.out.println("En la hora " + hora + " existen " + minuto + " minutos !"); //Este es un comentario de prueba jajajajaja
-            System.out.println("arigato");
+            System.out.println("En la hora " + hora + " existen " + minuto + " minutos !"); 
             System.out.print("Quieres salir del programa?? (S/N): ");
             salir = sc.next().toLowerCase();
             
